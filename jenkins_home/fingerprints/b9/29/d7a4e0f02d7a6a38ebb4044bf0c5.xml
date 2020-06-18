@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-06-14 20:08:19.974 UTC</timestamp>
+  <md5sum>b929d7a4e0f02d7a6a38ebb4044bf0c5</md5sum>
+  <fileName>Credential id=git name=git (git)</fileName>
+  <usages>
+    <entry>
+      <string>meetmehalfway-backend-ci-build</string>
+      <ranges>7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,90 @@
+Started by user [8mha:////4ELeEpBCcT8dvbAiOvok8cAEIzGgrhELka/iIYGMaPJfAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy1EgY+/dLi1CL9lNLEopLUXCMAMAlNX8MAAAA=[0mMiguel Matos Fernandes Oliveira Duarte
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/meetmehalfway-backend-ci-build
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential github_credentials
+Cloning the remote Git repository
+Cloning repository git@github.com:miguelmatosduarte/meet-me-half-way.git
+ > git init /var/jenkins_home/workspace/meetmehalfway-backend-ci-build # timeout=10
+Fetching upstream changes from git@github.com:miguelmatosduarte/meet-me-half-way.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials github credentials
+ > git fetch --tags --progress -- git@github.com:miguelmatosduarte/meet-me-half-way.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:miguelmatosduarte/meet-me-half-way.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:miguelmatosduarte/meet-me-half-way.git # timeout=10
+Fetching upstream changes from git@github.com:miguelmatosduarte/meet-me-half-way.git
+using GIT_ASKPASS to set credentials github credentials
+ > git fetch --tags --progress -- git@github.com:miguelmatosduarte/meet-me-half-way.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b98be4c736b9c8933b399c8ec956cf1b5928cf38 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b98be4c736b9c8933b399c8ec956cf1b5928cf38 # timeout=10
+Commit message: "add log with "Loading available cities message""
+ > git rev-list --no-walk b98be4c736b9c8933b399c8ec956cf1b5928cf38 # timeout=10
+[meetmehalfway-backend-ci-build] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/bin/mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.example:meet.me.half.way >--------------------
+[INFO] Building meet.me.half.way 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ meet.me.half.way ---
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ meet.me.half.way ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 5 resources
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ meet.me.half.way ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /var/jenkins_home/workspace/meetmehalfway-backend-ci-build/target/classes
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ meet.me.half.way ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/meetmehalfway-backend-ci-build/src/test/resources
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ meet.me.half.way ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ meet.me.half.way ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ meet.me.half.way ---
+[INFO] Building jar: /var/jenkins_home/workspace/meetmehalfway-backend-ci-build/target/meet.me.half.way-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.2.RELEASE:repackage (repackage) @ meet.me.half.way ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4BEBSIwlMwNgEKdKw0bX1VXFOLX434W48AFoj3Pzw8q7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ meet.me.half.way ---
+[INFO] Installing /var/jenkins_home/workspace/meetmehalfway-backend-ci-build/target/meet.me.half.way-0.0.1-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/com/example/meet.me.half.way/0.0.1-SNAPSHOT/meet.me.half.way-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/workspace/meetmehalfway-backend-ci-build/pom.xml to /var/jenkins_home/.m2/repository/com/example/meet.me.half.way/0.0.1-SNAPSHOT/meet.me.half.way-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.386 s
+[INFO] Finished at: 2020-06-17T19:15:18Z
+[INFO] ------------------------------------------------------------------------
+SSH: Connecting from host [5b70f140fcc3]
+SSH: Connecting with configuration [DigitalOcean] ...
+SSH: Creating session: username [jenkins], hostname [165.22.217.25], port [22]
+SSH: Connecting session ...
+SSH: Connected
+SSH: Opening SFTP channel ...
+SSH: SFTP channel open
+SSH: Connecting SFTP channel ...
+SSH: Connected
+SSH: cd [/]
+SSH: OK
+SSH: cd [/]
+SSH: OK
+SSH: cd [var/meetmehalfway/deploy/]
+SSH: OK
+SSH: put [meet.me.half.way-0.0.1-SNAPSHOT.jar]
+SSH: Disconnecting configuration [DigitalOcean] ...
+ERROR: Exception when publishing, exception message [Permission denied]
+Build step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

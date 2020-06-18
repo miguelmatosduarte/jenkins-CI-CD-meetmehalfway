@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-06-14 20:06:30.607 UTC</timestamp>
+  <md5sum>332177b9b33d2455c01cb051450eae5c</md5sum>
+  <fileName>Credential id=GitHub name=git (GitHub SSH credentials)</fileName>
+  <usages>
+    <entry>
+      <string>meetmehalfway-backend-ci-build</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

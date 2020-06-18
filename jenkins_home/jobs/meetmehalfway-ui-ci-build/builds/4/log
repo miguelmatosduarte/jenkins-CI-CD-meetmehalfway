@@ -1,0 +1,51 @@
+Started by user [8mha:////4ELeEpBCcT8dvbAiOvok8cAEIzGgrhELka/iIYGMaPJfAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy1EgY+/dLi1CL9lNLEopLUXCMAMAlNX8MAAAA=[0mMiguel Matos Fernandes Oliveira Duarte
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/meetmehalfway-ui-ci-build
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential github_credentials
+Cloning the remote Git repository
+Cloning repository git@github.com:miguelmatosduarte/meet-me-halfway-ui.git
+ > git init /var/jenkins_home/workspace/meetmehalfway-ui-ci-build # timeout=10
+Fetching upstream changes from git@github.com:miguelmatosduarte/meet-me-halfway-ui.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials github credentials
+ > git fetch --tags --progress -- git@github.com:miguelmatosduarte/meet-me-halfway-ui.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:miguelmatosduarte/meet-me-halfway-ui.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:miguelmatosduarte/meet-me-halfway-ui.git # timeout=10
+Fetching upstream changes from git@github.com:miguelmatosduarte/meet-me-halfway-ui.git
+using GIT_ASKPASS to set credentials github credentials
+ > git fetch --tags --progress -- git@github.com:miguelmatosduarte/meet-me-halfway-ui.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 66100e51112b3e904b15b742ae1c1db55cedfb9d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 66100e51112b3e904b15b742ae1c1db55cedfb9d # timeout=10
+Commit message: "update backend host"
+ > git rev-list --no-walk 66100e51112b3e904b15b742ae1c1db55cedfb9d # timeout=10
+Unpacking https://nodejs.org/dist/v14.4.0/node-v14.4.0-linux-x64.tar.gz to /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS-14.4.0 on Jenkins
+[meetmehalfway-ui-ci-build] $ /bin/sh -xe /tmp/jenkins278121940889665867.sh
++ npm run build
+
+> meet-me-halfway-ui@0.1.0 build /var/jenkins_home/workspace/meetmehalfway-ui-ci-build
+> react-scripts build
+
+sh: 1: react-scripts: not found
+npm ERR! code ELIFECYCLE
+npm ERR! syscall spawn
+npm ERR! file sh
+npm ERR! errno ENOENT
+npm ERR! meet-me-halfway-ui@0.1.0 build: `react-scripts build`
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the meet-me-halfway-ui@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/jenkins_home/.npm/_logs/2020-06-17T23_03_12_645Z-debug.log
+Build step 'Execute shell' marked build as failure
+SSH: Current build result is [FAILURE], not going to run.
+Finished: FAILURE
