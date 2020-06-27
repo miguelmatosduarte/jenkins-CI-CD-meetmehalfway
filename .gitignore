@@ -1,3 +1,11 @@
 jenkins_home/.m2/*
 jenkins_home/.npm/*
 jenkins_home/.bash_history
+jenkins_home/.lastStarted
+jenkins_home/logs/*
+jenkins_home/war/*
+jenkins_home/*.log
+jenkins_home/jobs/meetmehalfway-backend-ci-build/builds/*
+jenkins_home/jobs/meetmehalfway-ui-ci-build/builds/*
+
+
