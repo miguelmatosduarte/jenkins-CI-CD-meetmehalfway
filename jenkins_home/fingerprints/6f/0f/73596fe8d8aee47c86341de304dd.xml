@@ -1,16 +1,16 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <fingerprint>
-  <timestamp>2020-06-14 20:10:44.96 UTC</timestamp>
+  <timestamp>2020-06-27 17:34:12.111 UTC</timestamp>
   <md5sum>6f0f73596fe8d8aee47c86341de304dd</md5sum>
   <fileName>Credential id=github_credentials name=duartem2/****** (github credentials)</fileName>
   <usages>
     <entry>
       <string>meetmehalfway-ui-ci-build</string>
-      <ranges>1-8</ranges>
+      <ranges>13</ranges>
     </entry>
     <entry>
       <string>meetmehalfway-backend-ci-build</string>
-      <ranges>8-39</ranges>
+      <ranges>45</ranges>
     </entry>
   </usages>
   <facets/>
