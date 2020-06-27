@@ -1,3 +1,0 @@
-[filesystem "5b70f140fcc3|Oracle Corporation|1.8.0_242|/dev/vda1"]
-	timestampResolution = 1001 microseconds
-	minRacyThreshold = 0 nanoseconds
