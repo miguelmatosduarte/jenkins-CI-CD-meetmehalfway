@@ -1,13 +1,7 @@
 :root {
-  --medium-translucent: #bfffffff;
-  --pale-blue-trans: #7f78b4dc;
-  --pale-blue: #cde;
-  --middle-blue: #478;
-  --dark-blue: #356;
-  --shade-hint: #06000000;
-  --shade: #19000000;
-  --shadow: #3f000000;
-  --light-border: #f3f3f3;
+  --medium-translucent: rgba(255, 255, 255, 0.75);
+  --shade-hint: rgba(0, 0, 0, 0.025);
+  --shade: rgba(0, 0, 0, 0.1);
   --line-blue: #69c;
   --line-green: #acb;
   --danger: #d24939;
@@ -281,16 +275,16 @@
 #jenkins .jenkins-config table tr[nameref^="rowSetStart"],
 #jenkins .jenkins-config table tr[nameref^="cb"],
 #jenkins .jenkins-config table tr[nameref^="radio-block"] {
-  background: #06000000;
+  background: rgba(0, 0, 0, 0.025);
   background: var(--shade-hint);
-  border-left: 5px solid #19000000;
+  border-left: 5px solid rgba(0, 0, 0, 0.1);
   border-left: 5px solid var(--shade);
 }
 #jenkins .jenkins-config table .hetero-list-container,
 #jenkins .jenkins-config table .repeated-container,
 #jenkins .jenkins-config table tr.optional-block-start,
 #jenkins .jenkins-config table tr.radio-block-start {
-  border-left: 5px solid #19000000;
+  border-left: 5px solid rgba(0, 0, 0, 0.1);
   border-left: 5px solid var(--shade);
   background: none;
 }
@@ -312,7 +306,7 @@
 #jenkins .jenkins-config table .repeated-chunk.hover {
   border-color: #69c;
   border-color: var(--line-blue);
-  box-shadow: 0 2px 10px #19000000, inset 0 200px 200px -200px var(--brightest-bg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), inset 0 200px 200px -200px var(--brightest-bg-color);
   box-shadow: 0 2px 10px var(--shade), inset 0 200px 200px -200px var(--brightest-bg-color);
   position: relative;
   z-index: 2;
@@ -321,7 +315,7 @@
   position: static;
 }
 #jenkins .jenkins-config table .repeated-chunk {
-  border: 1px solid #19000000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border: 1px solid var(--shade);
   margin: 2px;
   position: relative;
